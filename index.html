@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños!</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <h1>¡Feliz Cumpleaños, Papurrrrrriiiiiiii !</h1>
+
+ <div class="contenedor-videos">
+  <video class="video-cumple" autoplay loop muted playsinline>
+    <source src="Video1.mp4" type="video/mp4">
+  </video>
+
+  <video class="video-cumple" autoplay loop muted playsinline>
+    <source src="Video2.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+
+  <p class="mensaje">Tu sabes que te daré 🫦🫦</p>
+
+  <button onclick="document.getElementById('musica').play()">🎵 Haz clic para escuchar tu canción</button>
+
+  <audio id="musica" loop>
+    <source src="Cancion.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="confeti-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
